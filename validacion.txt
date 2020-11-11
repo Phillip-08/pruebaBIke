@@ -1,0 +1,35 @@
+$(document).ready(function(){
+    $('#form-nuevousuario').validate({
+        debug: true,
+        lang:'es',
+        rules: {
+            idNombreCompleto: {
+                required: true,
+                minlength: 5,
+                maxlength: 10
+            },
+            idContraseña: "required",
+            idReContraseña: {
+                equalTo: "#idContraseña"
+            }
+        }
+    });
+});
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+var nombre =document.getElementById("name");
+
+function btnregistro(){
+    console.log("Registrado");
+
+    return false
+}
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+const nombre = document.getElementById("name");
+
+form.addEventListener("submit", e=>{
+    e.preventDefault()
+    if(nombre.Value.length >=6){
+        alert("nombre muy corto")
+    }
+
+})

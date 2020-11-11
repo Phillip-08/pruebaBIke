@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BikeRent | Planes</title>
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/planes.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><img src="img/logoCelesteBici.png" class="img-fluid" width="100px" height="100px" alt="" srcset="">BikeRent </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto ml-auto text-center sticky-top">
+            <li class="nav-item active">
+              <a class="nav-link " href="index2.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+             <li class="nav-item">
+                <a class="nav-link" href="Mapa.html">Mapa de Estaciones</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Planes.html">Planes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+
+          </ul>
+
+          <div class="d-flex flex-row justify-content-around">
+            <a href="login.html" class="btn btn-outline-dark mr-2">Login</a>
+            <a href="registro.html" class="btn btn-outline-dark">Registro</a>
+          </div>
+
+        </div>
+      </nav>
+      <hr>
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="img/planBasico.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Plan Esencial (estándar):</h5>
+              <p class="card-text">Hecho a medida para tus trayectos cortos y simples, lo que necesitas para tu día a día..</p>
+            </div>
+            <div class="card-footer bg-transparent">
+                <button class="btn btn-primary  align-content-center ">Comprar</button>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="img/planrecreativo.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Plan Recreativo:</h5>
+              <p class="card-text">Tu pación es salir explorar solo o con tus amigos, sal y divierte compartiendo tu bicicleta, un panorama perfecto para ir a descubrir tu nueva aventura.</p>
+            </div>
+            <div class="card-footer bg-transparent">
+                <button class="btn btn-primary  align-content-center ">Comprar</button>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="img/PlanWorklife.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Plan Work life: </h5>
+              <p class="card-text">Aburrido de estar en el taco, con la hora justa a tu reunión, este es tu plan ideal muévete por comunas rápido sin esperar locomoción y llega a tu presentación o tramite a la rapidez de tu pedaleo.</p>
+            </div>
+            <div class="card-footer bg-transparent">
+                <button class="btn btn-primary  align-content-center ">Comprar</button>
+            </div>
+          </div>
+        </div>  
+      </div>
+      <hr>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <div class="form-group mb-2">
+                <h1>Recibe nuestras novedades</h1>
+            </div>
+          </div>
+          <div class="col-sm">
+            <form  id="form-nuevousuario" method="POST">     
+                <div class="form-group ">
+                  <label for="idNombreCompleto" class="sr-only">Email</label>
+                  <input type="email" class="form-control" placeholder="Email" id="idNombreCompleto" name="idNombreCompleto" required />
+                </div>
+                
+              </form>
+          </div>
+          <div class="col-sm">
+            <button type="submit" class="btn btn-primary mb-2">Registrar</button>    
+          </div>
+        </div>
+      </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/localization/messages_es.min.js"></script>
+
+    <script src="js/validacion.js"></script>
+</body>
+
+</html>

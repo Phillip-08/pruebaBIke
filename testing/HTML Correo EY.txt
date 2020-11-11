@@ -1,0 +1,47 @@
+"<html xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+    <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+    <title>Reporte</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+</head>
+
+<body style='padding: 0; margin: 0;'>
+    <table border='0' cellpadding='0' cellspacing='0' width='100%'>
+        <tr>
+            <td>
+                <table align='center' border='0' cellpadding='0' cellspacing='0' width='600' style='border-collapse: collapse;'>
+                    <tr> 
+                        <td align='center' style=' background-color: #333; padding: 0px 0px 0px 0px;'>
+                            <img src='http://home-americas.ey.net/wps/themes/html/EYResponsive/img/EY_Logo.png' height='20px' alt='logo EY'>
+                            <h3 style='color: white; font-family: sans-serif;'>" & [Subject] & "</h3>
+                         </td>
+                    </tr>
+                    <tr>
+                        <td style='background-color: #f0f0f0; padding: 5px 30px 5px 30px;'> 
+                            <span style='font-family: sans-serif;'>
+                                Estimados se adjunta resumen de la ejecución del proceso Independencia/Conducta.
+                            </span>                                                        
+                                <br><br><span style='font-family: sans-serif;'>
+                                    " & [Message] & "  
+                                </span><br>                                                                   
+                            <span style='font-family: sans-serif;'>Para mayor información consultar reporte adjunto.</span>                           
+                        </td>
+                    </tr>
+                    <tr> 
+                        <td align='center' style='background-color: #333; font-family: sans-serif; font-size: 12px; padding: 0 5px 0 5px'>                         
+                            <span style='color: white;'>
+                                Este es un correo generado automáticamente, por favor no responda.
+                            </span><br>
+                            <span style='color: white; font-family: sans-serif;'>
+                                En caso de tener alguna duda o pregunta, envíe un correo a " & [Email responsable] & "
+                             </span><br>
+                                Power by Tech Delivery & Innovation FSO -CLS
+                            </span>                         
+                        </td>
+                    </tr>  
+                </table>
+            </td>
+        </tr>
+    </table>
+</body> 
+</html>"
