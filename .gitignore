@@ -4,6 +4,10 @@ Entorno/
 .vscode/
 pruebaBIke/
 
+#Base de datos
+
+db.sqlite3
+
 #Archovos punto pip
 
 .pip
