@@ -11,6 +11,7 @@
                 <img class="avatar"src="static/img/logoCelesteBici.png" alt="logo">
                 <h1>Entre Aquí</h1>
                 <form id="form-nuevousuario" method="POST">
+                    {% csrf_token %}
                     
                     <!--USERNAME-->
                     <label for="idNombreCompleto">Usuario</label>

@@ -23,6 +23,7 @@
                     <p class="text-muted mb-5">Ingresa la siguiente información para registrarte.</p>
 
                     <form id="form" method="POST">
+                        {% csrf_token %}
                         <div class="form-row mb-2">
                             <div class="form-group col-md-6">
                                 <label class="font-weight-bold" for="nombre">Nombres <span class="text-danger">*</span></label>
