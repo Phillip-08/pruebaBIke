@@ -1,6 +1,12 @@
-from django.urls import path
+
+from Modulos.models import registro1
+from django.urls.conf import path
+from django.urls import re_path
 from . import views
 
+
 urlpatterns = [
-    path('', views),
+     re_path( r'^$', views.index2, name="index2"), # funcion re_path remplaza url
+     re_path( r'^login.html/$', views.login, name="login"),
+     re_path( r'^registro.html/$', views.registro, name="registro_views")
 ]

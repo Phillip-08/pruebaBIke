@@ -1,3 +1,4 @@
+{% load static%}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,6 +20,7 @@
                 <img class="avatar"src="img/logoCelesteBici.png" alt="LogoBici">
                 <h1>Entre Aquí</h1>
                 <form id="form-nuevousuario" method="POST">
+                    {% csrf token %}
                     <!--USERNAME-->
                     <label for="idNombreCompleto">Usuario</label>
                     <input type="text" placeholder="Ingrese Usuario" id="idNombreCompleto" name="idNombreCompleto" required />
