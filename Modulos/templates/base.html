@@ -50,17 +50,17 @@
           {% if user.is_authenticated %}
           <div class="d-flex flex-row justify-content-around"></div>
           <li>
-            <a href="#">Usuario: {{ user.username}} </a>/a>
+            <a href="#">{{ user.username}} </a>/a>
           </li>
           <li>
-            
+            <a href="{% url 'logout'%}">Cerrar sección</a>
           </li>
           {% else %}
           <li>
             <a href="{% url 'login'%}" class="btn btn-outline-dark mr-2">Login</a>
           </li>
           <li>
-            <a href="{% url 'registro_views'%}" class="btn btn-outline-dark">Registro</a>
+            <a href="{% url 'registrar'%}" class="btn btn-outline-dark">Registro</a>
           </li> 
             
           </div>
