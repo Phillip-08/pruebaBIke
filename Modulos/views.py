@@ -31,10 +31,13 @@ def registrar(request):
             username = formulario.cleaned_data['username']
             password = formulario.cleaned_data['password1']
             user = authenticate(username=username, password=password)
-            login(request, user)
-            return redirect (to=r'^$')
+            #login(request, user)
+            return redirect(to='index2')
     
     return render(request, 'registration/registrar.html', data)
 
 def logout(request):
     return render(request, 'logout')
+
+def reset(request):
+    return render(request, 'password_reset.html')
