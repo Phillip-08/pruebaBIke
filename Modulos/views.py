@@ -41,3 +41,6 @@ def logout(request):
 
 def reset(request):
     return render(request, 'password_reset.html')
+
+def Planes(request):
+    return render(request, 'Planes.html')
