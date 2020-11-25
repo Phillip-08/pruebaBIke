@@ -44,3 +44,12 @@ def reset(request):
 
 def Planes(request):
     return render(request, 'Planes.html')
+
+def nosotros(request):
+    return render(request, 'nosotros.html')
+
+def contacto(request):
+    return render(request, 'contacto.html')
+
+def Mapa(request):
+    return render(request, 'Mapa.html')
